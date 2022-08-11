@@ -1,0 +1,31 @@
+
+.page-link{
+    color: #212529;
+    border: 1px solid  #198754;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.page-link:hover{
+    color: #fff;
+    background: #198754;
+    border: 2px solid  #198754;
+    transition: 0.15s ;
+}
+
+.to-previous,
+.to-next{
+    color: #198754;
+    width: 100%;
+    height: 100%;
+}
+
+.to-previous:hover,
+.to-next:hover{
+    color: #fff;
+}
+
+.page-link:focus{
+    color: #fff;
+}
