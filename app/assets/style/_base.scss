@@ -1,0 +1,37 @@
+// 全站共用設定
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    line-height: 1;
+    color: #212529;
+}
+
+a:hover{
+    color: #198754;
+    transition: 0.15s ease-in-out;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Lato', 'Roboto Mono', monospace, sans-serif;
+    line-height: 1.5;
+    color: #000;
+    display: flex;
+}
+
+ul{
+    display: block;
+}

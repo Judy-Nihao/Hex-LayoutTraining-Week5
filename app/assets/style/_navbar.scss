@@ -1,0 +1,49 @@
+.navbar{
+    width: 296px;
+    min-height: 100vh;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    display: block;
+    }
+
+.logo{
+    padding-top: 2rem;
+    padding-left: 2rem; 
+    // background: gold;
+}   
+
+.nav__list{
+    margin-top: 2rem;
+    background: pink;
+}
+
+.nav__item{
+    padding-left: 2rem; 
+}
+
+.nav__item a{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.nav__item:hover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754;
+  }
+
+.account__photo{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-image: url("../images/andychen.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.account__info{
+    padding-left: 1rem;
+}
