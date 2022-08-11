@@ -1,29 +1,21 @@
 .navbar{
-    width: 296px;
     min-height: 100vh;
-    padding-top: 0;
-    padding-bottom: 2rem;
-    display: block;
-    }
+    padding-bottom: 0;
+    
+    } 
 
-.logo{
-    padding-top: 2rem;
-    padding-left: 2rem; 
-    // background: gold;
-}   
+.logo:hover{
+    opacity: 0.5;
+}
 
 .nav__list{
+    width: 296px;
     margin-top: 2rem;
-    background: pink;
-}
+}   
 
 .nav__item{
     padding-left: 2rem; 
-}
-
-.nav__item a{
-    padding-top: 2px;
-    padding-bottom: 2px;
+    margin-bottom: 12px;
 }
 
 .nav__item:hover::before{
