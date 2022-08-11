@@ -1,23 +1,81 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+a {
+  text-decoration: none;
+  display: block;
+  line-height: 1;
+  color: #212529; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+a:hover {
+  color: #198754;
+  -webkit-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+body {
+  font-family: 'Lato', 'Roboto Mono', monospace, sans-serif;
+  line-height: 1.5;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+  display: flex; }
+
+ul {
+  display: block; }
+
+.navbar {
+  width: 296px;
+  min-height: 100vh;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  display: block; }
+
+.logo {
+  padding-top: 2rem;
+  padding-left: 2rem; }
+
+.nav__list {
+  margin-top: 2rem;
+  background: pink; }
+
+.nav__item {
+  padding-left: 2rem; }
+
+.nav__item a {
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+.nav__item:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754; }
+
+.account__photo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background-image: url("../images/andychen.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.account__info {
+  padding-left: 1rem; }
+
+.mb-20 {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=all.css.map */
